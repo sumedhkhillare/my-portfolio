@@ -85,9 +85,18 @@ function App() {
 
       <Section id="education" title="Education">
         <div className="grid md:grid-cols-3 gap-6">
-          <InfoCard title="B.Tech CSE" desc="Ajeenkya D Y Patil University, Pune" />
-          <InfoCard title="HSC" desc="AEJC No.1 Tarapur" />
-          <InfoCard title="CBSE" desc="AECS No.1 Tarapur" />
+          <InfoCard
+            title="B.Tech CSE"
+            desc="Ajeenkya D Y Patil University, Pune | 2022 - 2026"
+          />
+          <InfoCard
+            title="11th - 12th"
+            desc="HSC Board | AEJC No.1 Tarapur"
+          />
+          <InfoCard
+            title="Till 10th"
+            desc="CBSE Board | AECS No.1 Tarapur"
+          />
         </div>
       </Section>
 
@@ -103,8 +112,8 @@ function App() {
         <div className="bg-white border border-slate-200 rounded-3xl p-8 shadow-xl text-slate-700 space-y-4">
           <p><b>Email:</b> sumedh.khillare@adypu.edu.in</p>
           <p><b>Location:</b> Pune, India</p>
-          <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/sumedh-khillare-322ab3358/" target="_blank" className="text-blue-600 hover:underline">linkedin.com/in/sumedh-khillare-322ab3358</a></p>
-          <p><b>GitHub:</b> <a href="https://github.com/sumedhkhillare" target="_blank" className="text-blue-600 hover:underline">github.com/sumedhkhillare</a></p>
+          <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/sumedh-khillare-322ab3358/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">linkedin.com/in/sumedh-khillare-322ab3358</a></p>
+          <p><b>GitHub:</b> <a href="https://github.com/sumedhkhillare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">github.com/sumedhkhillare</a></p>
         </div>
       </Section>
 
