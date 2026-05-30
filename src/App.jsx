@@ -91,11 +91,11 @@ function App() {
           />
           <InfoCard
             title="11th - 12th"
-            desc="HSC Board | AEJC No.1 Tarapur"
+            desc="HSC Board | Atomic Energy Junior College Tarapur"
           />
           <InfoCard
             title="Till 10th"
-            desc="CBSE Board | AECS No.1 Tarapur"
+            desc="CBSE Board | Atomic Energy Central School Tarapur"
           />
         </div>
       </Section>
