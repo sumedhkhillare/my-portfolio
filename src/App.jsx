@@ -15,7 +15,7 @@ function App() {
           </h1>
 
           <div className="hidden md:flex gap-6 text-sm text-slate-700">
-            {["about", "skills", "projects", "education", "certificates", "contact"].map((item) => (
+            {["about", "skills", "projects", "education", "certificates","Resume", "contact"].map((item) => (
               <a key={item} href={`#${item}`} className="hover:text-blue-600 capitalize">
                 {item}
               </a>
@@ -48,11 +48,12 @@ function App() {
           </p>
 
           <div className="flex justify-center gap-4 flex-wrap">
-            <ButtonLink href="#projects" primary>View Projects</ButtonLink>
-            <ButtonLink href="#contact">Contact Me</ButtonLink>
-            <ButtonLink href="https://github.com/sumedhkhillare">GitHub</ButtonLink>
-            <ButtonLink href="https://www.linkedin.com/in/sumedh-khillare-322ab3358/">LinkedIn</ButtonLink>
-          </div>
+             <ButtonLink href="#projects" primary>View Projects</ButtonLink>
+             <ButtonLink href="#contact">Contact Me</ButtonLink>
+             <ButtonLink href="/Sumedh_Khillare_Resume.pdf">Resume</ButtonLink>
+             <ButtonLink href="https://github.com/sumedhkhillare">GitHub</ButtonLink>
+             <ButtonLink href="https://www.linkedin.com/in/sumedh-khillare-322ab3358/">LinkedIn</ButtonLink>
+</div>
         </div>
       </section>
 
@@ -107,6 +108,43 @@ function App() {
           <InfoCard title="UpGrad" desc="Data Structures and Algorithms in Java" />
         </div>
       </Section>
+
+      <Section id="resume" title="Resume">
+  <div className="bg-white border border-slate-200 rounded-3xl p-8 shadow-xl">
+    <h3 className="text-2xl font-bold mb-4 text-center">
+      My Resume
+    </h3>
+
+    <p className="text-slate-600 text-center mb-8">
+      Download or preview my latest resume.
+    </p>
+
+    <div className="flex justify-center gap-4 flex-wrap mb-8">
+      <a
+        href="/Sumedh_Khillare_Resume.pdf"
+        download
+        className="bg-gradient-to-r from-blue-600 to-emerald-500 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition"
+      >
+        Download Resume
+      </a>
+
+      <a
+        href="/Sumedh_Khillare_Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-xl font-semibold shadow-sm hover:bg-blue-50 transition"
+      >
+        Preview Resume
+      </a>
+    </div>
+
+    <iframe
+      src="/Sumedh_Khillare_Resume.pdf"
+      title="Resume Preview"
+      className="w-full h-[700px] rounded-2xl border border-slate-200"
+    />
+  </div>
+</Section>
 
       <Section id="contact" title="Contact">
         <div className="bg-white border border-slate-200 rounded-3xl p-8 shadow-xl text-slate-700 space-y-4">
