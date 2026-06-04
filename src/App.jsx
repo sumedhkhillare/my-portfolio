@@ -60,7 +60,7 @@ function App() {
       <Section id="about" title="About Me">
         <div className="grid md:grid-cols-2 gap-6">
           <Card>I am a Computer Science Engineering student with a strong foundation in programming, data structures, software development, and database management. I am skilled in Java, Python, C++, SQL, React.js, Node.js, Express.js, MongoDB, and MySQL.</Card>
-          <Card>My project experience includes a full-stack AI Resume Builder & Analyzer, a Java-based Airline Management System, and a Blockchain and AI-based decentralized energy trading framework.</Card>
+          <Card>  My project experience includes a full-stack AI Resume Builder & Analyzer, ML VisionAI Multi Object Detection System, a Java-based Airline Management System, and a Blockchain and AI-based decentralized energy trading framework.</Card>
           <Card>I am interested in Artificial Intelligence, Machine Learning, Blockchain, Cloud Computing, and Virtualization. I enjoy learning how modern technologies solve real-world problems.</Card>
           <Card>I am eager to learn new technologies, improve my problem-solving skills, and contribute effectively in an entry-level software engineering role.</Card>
         </div>
@@ -77,12 +77,36 @@ function App() {
       </Section>
 
       <Section id="projects" title="Projects">
-        <div className="grid md:grid-cols-3 gap-6">
-          <ProjectCard icon="🤖" title="AI Resume Builder & Analyzer" tech="React.js, Tailwind CSS, Node.js, Express.js, MongoDB, Gemini API" desc="Full-stack AI resume analyzer with authentication, resume upload, ATS score checking, AI suggestions, and resume builder." />
-          <ProjectCard icon="✈️" title="Airline Management System" tech="Java, Java Swing, AWT, JDBC, MySQL" desc="Java desktop application for customer registration, flight booking, PNR search, boarding pass generation, payment, and ticket cancellation." />
-          <ProjectCard icon="⚡" title="Blockchain & AI Energy Trading" tech="Node.js, Blockchain, AI/ML, LSTM, Regression Model" desc="Decentralized peer-to-peer energy trading framework using blockchain, IoT smart meters, LSTM-based energy prediction, and regression-based dynamic pricing." />
-        </div>
-      </Section>
+  <div className="grid md:grid-cols-2 gap-6">
+    <ProjectCard
+      icon="🤖"
+      title="AI Resume Builder & Analyzer"
+      tech="React.js, Tailwind CSS, Node.js, Express.js, MongoDB, Gemini API"
+      desc="Full-stack AI resume analyzer with authentication, resume upload, ATS score checking, AI suggestions, and resume builder."
+    />
+
+    <ProjectCard
+      icon="✈️"
+      title="Airline Management System"
+      tech="Java, Java Swing, AWT, JDBC, MySQL"
+      desc="Java desktop application for customer registration, flight booking, PNR search, boarding pass generation, payment, and ticket cancellation."
+    />
+
+    <ProjectCard
+      icon="🎯"
+      title="ML VisionAI - Multi Object Detection System"
+      tech="Python, Flask, YOLO, OpenCV, React.js, HTML, CSS, JavaScript"
+      desc="AI-powered object detection system capable of identifying multiple objects in images using YOLO and OpenCV. Features image upload, object detection, bounding box visualization, confidence scoring, and a Flask-based backend integrated with a React frontend."
+    />
+
+    <ProjectCard
+      icon="⚡"
+      title="Blockchain & AI Energy Trading"
+      tech="Node.js, Blockchain, AI/ML, LSTM, Regression Model, Hardhat"
+      desc="Decentralized peer-to-peer energy trading framework using blockchain, IoT smart meters, LSTM-based energy prediction, regression-based dynamic pricing, and secure smart contract transactions."
+    />
+  </div>
+</Section>
 
       <Section id="education" title="Education">
         <div className="grid md:grid-cols-3 gap-6">
