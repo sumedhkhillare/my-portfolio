@@ -43,10 +43,7 @@ function App() {
           </p>
 
           <p className="max-w-3xl mx-auto text-slate-600 mb-10 leading-8">
-            I design and ship complete software products — from Java desktop systems
-            to AI-powered web apps — with a focus on clean architecture and
-            real-world usability. Currently exploring the intersection of AI/ML
-            and full-stack development.
+            From concept to deployed interface — I build complete, working software systems across full-stack, AI, and database-driven applications
           </p>
 
           <div className="flex justify-center gap-4 flex-wrap">
@@ -62,27 +59,30 @@ function App() {
       <Section id="about" title="About Me">
         <div className="grid md:grid-cols-2 gap-6">
           <Card>
-            I'm a Computer Science Engineering graduate (2026) who learns by
-            building. My foundation spans Java, Python, C++, and SQL, extended
-            into full-stack development with React.js, Node.js, Express.js,
-            and MongoDB.
+            <span className="block text-sm font-semibold text-blue-600 mb-2">Background</span>
+            B.Tech Computer Science Engineering, graduating 2026. My core is
+            Java, Python, C++, and SQL — extended into full-stack web
+            development with React.js, Node.js, Express.js, and MongoDB.
           </Card>
           <Card>
-            Rather than following tutorials, I've built four independent,
-            end-to-end systems — a Java desktop application, an AI-integrated
-            web platform, a computer vision tool, and a blockchain-based
-            trading framework — each solving a distinct real-world problem.
+            <span className="block text-sm font-semibold text-blue-600 mb-2">How I work</span>
+            I don't build to check a box on a syllabus. Each project below
+            was picked because it forced me to learn something I didn't
+            already know — a desktop app taught me database design, a
+            computer vision tool taught me how ML models meet real interfaces.
           </Card>
           <Card>
-            My work on decentralized AI/blockchain systems for peer-to-peer
-            energy trading was developed into a research paper accepted at
-            ICSICE — pushing me to think about software not just as code, but
-            as systems that need to be explained and defended.
+            <span className="block text-sm font-semibold text-blue-600 mb-2">What sets this apart</span>
+            My work on decentralized AI and blockchain systems for
+            peer-to-peer energy trading became a research paper accepted at
+            ICSICE — the first time I had to defend a system's design to
+            people outside my own head.
           </Card>
           <Card>
-            I'm currently looking for a Full-Stack Developer or Software
-            Development Engineer role where I can keep building things
-            end-to-end, from database design through deployed interface.
+            <span className="block text-sm font-semibold text-blue-600 mb-2">What I'm looking for</span>
+            A Full-Stack Developer or Software Development Engineer role
+            where I can own a problem end-to-end — database, API, and
+            interface — and keep learning at the same pace I have been.
           </Card>
         </div>
       </Section>
@@ -115,7 +115,7 @@ function App() {
             icon="🤖"
             title="AI Resume Builder & Analyzer"
             tech="React.js, Tailwind CSS, Node.js, Express.js, MongoDB, Gemini API"
-            desc="Full-stack AI resume analyzer with authentication, resume upload, ATS score checking, AI suggestions, and resume builder — built to solve my own frustration with generic resume feedback tools."
+            desc="Started after one too many vague 'improve your resume' rejections. Full-stack analyzer with authentication, ATS score checking, AI-generated suggestions via the Gemini API, and an integrated builder — the tool I wished existed."
             code="https://github.com/sumedhkhillare"
           />
 
@@ -123,7 +123,7 @@ function App() {
             icon="✈️"
             title="Airline Management System"
             tech="Java, Java Swing, AWT, JDBC, MySQL"
-            desc="Java desktop application for customer registration, flight booking, PNR search, boarding pass generation, payment, and ticket cancellation — designed to model real airline backend workflows end-to-end."
+            desc="A Java desktop application modeling a real airline's backend: customer registration, PNR-based search, booking, boarding passes, payments, and cancellations, all backed by a normalized MySQL schema via JDBC."
             code="https://github.com/sumedhkhillare"
           />
 
@@ -131,7 +131,7 @@ function App() {
             icon="🎯"
             title="ML VisionAI - Multi Object Detection System"
             tech="Python, Flask, YOLO, OpenCV, React.js, HTML, CSS, JavaScript"
-            desc="AI-powered object detection system using YOLO and OpenCV, with image upload, bounding box visualization, and confidence scoring — exploring how computer vision models integrate into usable web interfaces."
+            desc="YOLO and OpenCV under the hood, a Flask API in the middle, and a plain web interface on top — built to understand what it actually takes to get a research-grade model into something a non-technical user can click through."
             code="https://github.com/sumedhkhillare"
           />
 
@@ -139,7 +139,7 @@ function App() {
             icon="⚡"
             title="Blockchain & AI Energy Trading"
             tech="Node.js, Blockchain, AI/ML, LSTM, Regression Model, Hardhat"
-            desc="Decentralized peer-to-peer energy trading framework combining blockchain, IoT smart meters, LSTM-based demand prediction, and regression-based dynamic pricing — this research was developed into a paper accepted at ICSICE."
+            desc="A decentralized framework letting consumers and prosumers trade renewable energy directly, using LSTM demand forecasting, regression-based dynamic pricing, and Hardhat smart contracts. Later developed into a paper accepted at ICSICE."
             code="https://github.com/sumedhkhillare"
           />
         </div>
@@ -218,7 +218,7 @@ function App() {
 
       <Section id="contact" title="Contact">
         <p className="text-slate-600 mb-6">
-          Open to full-stack developer and SDE roles — feel free to reach out.
+          Best way to reach me is email or LinkedIn — I usually reply within a day.
         </p>
         <div className="bg-white border border-slate-200 rounded-3xl p-8 shadow-xl text-slate-700 space-y-4">
           <p><b>Email:</b> sumedh.khillare@adypu.edu.in</p>
