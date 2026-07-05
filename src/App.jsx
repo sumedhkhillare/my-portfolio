@@ -50,7 +50,7 @@ function App() {
           <div className="flex justify-center gap-4 flex-wrap">
              <ButtonLink href="#projects" primary>View Projects</ButtonLink>
              <ButtonLink href="#contact">Contact Me</ButtonLink>
-             <ButtonLink href="/Sumedh_Khillare_Resume.pdf">Resume</ButtonLink>
+             <ButtonLink href="/Sumedh Khillare - Resume new.pdf">Resume</ButtonLink>
              <ButtonLink href="https://github.com/sumedhkhillare">GitHub</ButtonLink>
              <ButtonLink href="https://www.linkedin.com/in/sumedh-khillare-322ab3358/">LinkedIn</ButtonLink>
 </div>
@@ -145,7 +145,7 @@ function App() {
 
     <div className="flex justify-center gap-4 flex-wrap mb-8">
       <a
-        href="/Sumedh_Khillare_Resume.pdf"
+        href="Sumedh Khillare - Resume new.pdf"
         download
         className="bg-gradient-to-r from-blue-600 to-emerald-500 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition"
       >
@@ -153,7 +153,7 @@ function App() {
       </a>
 
       <a
-        href="/Sumedh_Khillare_Resume.pdf"
+        href="/Sumedh Khillare - Resume new.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-xl font-semibold shadow-sm hover:bg-blue-50 transition"
@@ -163,7 +163,7 @@ function App() {
     </div>
 
     <iframe
-      src="/Sumedh_Khillare_Resume.pdf"
+      src="/Sumedh Khillare - Resume new.pdf"
       title="Resume Preview"
       className="w-full h-[700px] rounded-2xl border border-slate-200"
     />
