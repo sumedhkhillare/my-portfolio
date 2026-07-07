@@ -1,11 +1,66 @@
 function App() {
   const skillGroups = [
-    { label: "Languages", items: ["Java", "Python", "C++", "SQL", "JavaScript"] },
-    { label: "Web Development", items: ["React.js", "Node.js", "Express.js", "HTML", "CSS", "Tailwind CSS", "MongoDB", "MySQL"] },
-    { label: "Tools", items: ["Java Swing", "JDBC", "Git & GitHub", "Postman"] },
-    { label: "Core CS", items: ["Data Structures", "Algorithms", "OOP", "DBMS"] },
-    { label: "AI/ML & Emerging Tech", items: ["AI/ML", "Computer Vision", "Blockchain", "Cloud Computing", "Virtualization"] },
-  ]
+  {
+    label: "Languages",
+    items: [
+      "Java",
+      "Python",
+      "C++",
+      "C",
+      "JavaScript",
+      "SQL",
+    ],
+  },
+  {
+    label: "Web Technologies",
+    items: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Flask",
+      "MongoDB",
+      "MySQL",
+    ],
+  },
+  {
+    label: "Core CS Concepts",
+    items: [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "DBMS",
+      "Operating Systems",
+      "Computer Networks",
+    ],
+  },
+  {
+    label: "Tools & Platforms",
+    items: [
+      "Git & GitHub",
+      "VS Code",
+      "Postman",
+      "MySQL Workbench",
+      "NetBeans",
+      "JDBC",
+      "DBUtils",
+      "Tableau",
+      "Power BI",
+      "Excel",
+    ],
+  },
+  {
+    label: "AI/ML & Emerging Tech",
+    items: [
+      "Machine Learning",
+      "Computer Vision (OpenCV, YOLO)",
+      "LSTM",
+      "Cloud Computing",
+      "Virtualization",
+    ],
+  },
+];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-emerald-50 text-slate-900">
