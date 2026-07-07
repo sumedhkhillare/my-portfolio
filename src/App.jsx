@@ -276,7 +276,7 @@ function App() {
           Best way to reach me is email or LinkedIn — I usually reply within a day.
         </p>
         <div className="bg-white border border-slate-200 rounded-3xl p-8 shadow-xl text-slate-700 space-y-4">
-          <p><b>Email:</b> sumedh.khillare@adypu.edu.in</p>
+          <p><b>Email:</b> sumedhkhillare.98@gmail.com</p>
           <p><b>Location:</b> Pune, India</p>
           <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/sumedh-khillare-322ab3358/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">linkedin.com/in/sumedh-khillare-322ab3358</a></p>
           <p><b>GitHub:</b> <a href="https://github.com/sumedhkhillare" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">github.com/sumedhkhillare</a></p>
